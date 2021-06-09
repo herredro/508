@@ -1,4 +1,4 @@
-import pic_side from './img/508_side.png';
+import pic_side from './img/508_side.jpg';
 import './App.css';
 
 function App() {
