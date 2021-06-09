@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import pic_side from './img/508_side.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello World</h1>
+        <img 
+          className="home_pic" 
+          src={pic_side} 
+          width={"300px"} 
+        />
       </header>
+      <div className='body'>
+      </div>
+      
     </div>
   );
 }
