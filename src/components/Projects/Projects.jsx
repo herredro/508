@@ -26,13 +26,13 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Service offerings" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
-                <Col lg={4} sm={12}>
+                <Col lg={8} sm={12}>
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        Mail me
                       </a>
 
                       {repo && (
@@ -71,7 +71,7 @@ const Projects = () => {
                     </div>
                   </Fade>
                 </Col>
-                <Col lg={8} sm={12}>
+                <Col lg={4} sm={12}>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
